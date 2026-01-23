@@ -5,6 +5,7 @@ import { toast } from "sonner";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const baseUrl = import.meta.env.BASE_URL;
 
   return (
     <>
@@ -143,7 +144,7 @@ export default function Footer() {
               >
                 <li>
                   <a
-                    href="/#features"
+                    href={`${baseUrl}#features`}
                     style={{ color: "var(--text-secondary)" }}
                   >
                     {t("navbar.features")}
@@ -151,7 +152,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#pricing"
+                    href={`${baseUrl}#pricing`}
                     style={{ color: "var(--text-secondary)" }}
                   >
                     {t("navbar.pricing")}
@@ -159,7 +160,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/#download"
+                    href={`${baseUrl}#download`}
                     style={{ color: "var(--text-secondary)" }}
                   >
                     {t("navbar.download")}

@@ -35,16 +35,22 @@ export default function Navbar() {
     i18n.changeLanguage(newLang);
   };
 
+  const baseUrl = import.meta.env.BASE_URL;
+
   const navItems = [
-    { key: "features", label: t("navbar.features"), href: "/#features" },
+    {
+      key: "features",
+      label: t("navbar.features"),
+      href: `${baseUrl}#features`,
+    },
     {
       key: "howItWorks",
       label: t("navbar.howItWorks"),
-      href: "/#how-it-works",
+      href: `${baseUrl}#how-it-works`,
     },
-    { key: "pricing", label: t("navbar.pricing"), href: "/#pricing" },
-    { key: "reviews", label: t("navbar.reviews"), href: "/#reviews" },
-    { key: "faq", label: t("navbar.faq"), href: "/#faq" },
+    { key: "pricing", label: t("navbar.pricing"), href: `${baseUrl}#pricing` },
+    { key: "reviews", label: t("navbar.reviews"), href: `${baseUrl}#reviews` },
+    { key: "faq", label: t("navbar.faq"), href: `${baseUrl}#faq` },
   ];
 
   return (
@@ -189,7 +195,7 @@ export default function Navbar() {
           </button>
 
           <a
-            href="#download"
+            href={`${baseUrl}#download`}
             className="btn-primary"
             style={{ padding: "10px 20px", fontSize: "0.9rem" }}
           >
@@ -277,7 +283,7 @@ export default function Navbar() {
           </div>
 
           <a
-            href="#download"
+            href={`${baseUrl}#download`}
             className="btn-primary"
             onClick={() => setIsOpen(false)}
             style={{ justifyContent: "center" }}
