@@ -66,11 +66,11 @@ export default function Screenshots() {
                 flex: "0 0 auto",
                 width: "280px",
                 height: "580px",
-                backgroundColor: "#121212", // Dark bezel background
+                backgroundColor: "#121212",
                 borderRadius: "40px",
-                border: "12px solid #2d2d2d", // Bezel border
+                border: "12px solid #2d2d2d",
                 boxShadow:
-                  "0 20px 40px rgba(0,0,0,0.2), inset 0 0 0 2px rgba(255,255,255,0.1)", // Shadow + Gloss hint
+                  "0 20px 40px rgba(0,0,0,0.2), inset 0 0 0 2px rgba(255,255,255,0.1)",
                 position: "relative",
                 overflow: "hidden",
                 display: "flex",
@@ -78,7 +78,6 @@ export default function Screenshots() {
                 justifyContent: "center",
               }}
             >
-              {/* Notch decoration */}
               <div
                 style={{
                   position: "absolute",
@@ -100,7 +99,7 @@ export default function Screenshots() {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "fill", // Ensures it fills the frame. Since we use a standard ratio, this should look good.
+                  objectFit: "fill",
                   zIndex: 1,
                 }}
               />
@@ -118,7 +117,6 @@ export default function Screenshots() {
             </h3>
           </div>
         ))}
-        {/* Spacer at the end for scrolling comfort */}
         <div style={{ flex: "0 0 20px" }} />
       </div>
 

@@ -8,22 +8,16 @@ export default function Article() {
   const { slug } = useParams();
   const navigate = useNavigate();
 
-  // Se o artigo não tiver tradução, voltamos ou mostramos erro.
-  // Vamos assumir que se o título existir, o artigo existe.
   const titleKey = `help.articles.${slug}.title`;
   const contentKey = `help.articles.${slug}.content`;
 
   const title = t(titleKey);
   const content = t(contentKey, { returnObjects: true });
 
-  // Verificação simples se a chave retornou ela mesma (significa que não achou tradução)
-  // O i18next retorna a chave se não achar o valor por padrão.
   const exists = title !== titleKey;
 
   useEffect(() => {
     if (!exists) {
-      // Opcional: Redirecionar se não existir
-      // navigate("/help");
     }
   }, [exists, navigate]);
 
@@ -85,10 +79,9 @@ export default function Article() {
             fontSize: "1.1rem",
             lineHeight: "1.8",
             color: "var(--text-secondary)",
-            whiteSpace: "pre-line", // Respeita as quebras de linha do arquivo JSON
+            whiteSpace: "pre-line",
           }}
         >
-          {/* Se o conteúdo for uma string simples, exibe. Se for array (parágrafos), mapeia. */}
           {Array.isArray(content) ? (
             content.map((paragraph, index) => (
               <p key={index} style={{ marginBottom: "1.5rem" }}>

@@ -18,7 +18,6 @@ export default function Hero() {
         className="container grid grid-cols-2"
         style={{ alignItems: "center" }}
       >
-        {/* Text Content */}
         <div>
           <h1
             style={{
@@ -29,7 +28,6 @@ export default function Hero() {
               lineHeight: 1.1,
             }}
           >
-            {/* Using raw t() temporarily to debug potential Trans issue */}
             {t("hero.headline").replace(/<[^>]*>/g, "")}
           </h1>
 
@@ -42,7 +40,6 @@ export default function Hero() {
               lineHeight: 1.6,
             }}
           >
-            {/* Using raw t() temporarily to debug potential Trans issue */}
             {t("hero.subheadline").replace(/<[^>]*>/g, "")}
           </p>
 
@@ -97,7 +94,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Hero Image / Mockup */}
         <div
           style={{
             position: "relative",
@@ -105,7 +101,6 @@ export default function Hero() {
             justifyContent: "center",
           }}
         >
-          {/* Abstract Background Blob */}
           <div
             style={{
               position: "absolute",
@@ -121,11 +116,12 @@ export default function Hero() {
             }}
           />
 
-          {/* Phone Mockup */}
           <div
             style={{
               width: "300px",
+              maxWidth: "100%",
               height: "600px",
+              maxHeight: "80vh",
               backgroundColor: "var(--bg-color)",
               border: "12px solid var(--text-primary)",
               borderRadius: "48px",
@@ -134,7 +130,6 @@ export default function Hero() {
               boxShadow: "0 50px 100px -20px rgba(0,0,0,0.2)",
             }}
           >
-            {/* Notch */}
             <div
               style={{
                 position: "absolute",
@@ -150,14 +145,15 @@ export default function Hero() {
               }}
             />
 
-            {/* Screen Content */}
             <div
               style={{
                 padding: "50px 20px 20px",
                 height: "100%",
+                overflowY: "auto",
                 display: "flex",
                 flexDirection: "column",
                 gap: "16px",
+                scrollbarWidth: "none",
               }}
             >
               <div
@@ -171,9 +167,7 @@ export default function Hero() {
                 <MdSettings size={24} color="var(--text-secondary)" />
               </div>
 
-              {/* List Items */}
               {[
-                { text: "Milk", checked: true },
                 { text: "Avocados", checked: false },
                 { text: "Bread", checked: false },
                 { text: "Eggs", checked: true },
@@ -197,6 +191,7 @@ export default function Hero() {
                     style={{
                       width: 20,
                       height: 20,
+                      minWidth: 20,
                       borderRadius: "6px",
                       border: "2px solid",
                       borderColor: item.checked

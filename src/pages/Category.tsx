@@ -9,24 +9,20 @@ export default function Category() {
   const category = params.category;
   const navigate = useNavigate();
 
-  // Safety check for data
   const articlesList = HELP_ARTICLES || [];
 
-  // Map category slug to translation key
   const categoryTitles: Record<string, string> = {
     "getting-started": "help.gettingStarted",
     account: "help.account",
     troubleshooting: "help.troubleshooting",
   };
 
-  // Ensure category is string and exists
   const currentCategory = category || "";
   const categoryTitleKey = categoryTitles[currentCategory];
   const isValidCategory = categoryTitleKey !== undefined;
 
   const title = isValidCategory ? t(categoryTitleKey) : t("help.title");
 
-  // Filter articles
   const articles = articlesList.filter(
     (article) => article.category === currentCategory,
   );

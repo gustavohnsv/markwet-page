@@ -9,7 +9,6 @@ export default function Footer() {
 
   return (
     <>
-      {/* Final CTA Section */}
       <section
         id="download"
         className="section"
@@ -98,7 +97,6 @@ export default function Footer() {
         </div>
       </section>
 
-      {/* Actual Footer */}
       <footer
         style={{
           backgroundColor: "var(--bg-color)",

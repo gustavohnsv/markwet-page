@@ -51,10 +51,7 @@ export default function HowItWorks() {
           </p>
         </div>
 
-        <div className="grid grid-cols-4" style={{ gap: "24px" }}>
-          {/* Note: grid-cols-4 is not defined in global css, I'll use inline style or adding responsive logic here */}
-          {/* Actually, I'll use a flex wrap for simplification or just style it here */}
-        </div>
+        <div className="grid grid-cols-4" style={{ gap: "24px" }}></div>
 
         <div
           style={{
@@ -89,7 +86,6 @@ export default function HowItWorks() {
                 {step.icon}
               </div>
 
-              {/* Connector Line (simplified) */}
               {index < steps.length - 1 && (
                 <div
                   className="connector"
@@ -101,8 +97,7 @@ export default function HowItWorks() {
                     height: "2px",
                     backgroundColor: "var(--border-color)",
                     zIndex: 1,
-                    display:
-                      "none" /* Hidden by default, shown on desktop via media query logic if I had CSS in JS fully */,
+                    display: "none",
                   }}
                 />
               )}

@@ -77,7 +77,6 @@ export default function Navbar() {
           alignItems: "center",
         }}
       >
-        {/* Logo */}
         <Link
           to="/"
           style={{
@@ -94,7 +93,6 @@ export default function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop Menu */}
         <div
           className="desktop-menu"
           style={{ display: "none", gap: "32px", alignItems: "center" }}
@@ -114,12 +112,10 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Desktop Actions */}
         <div
           className="desktop-actions"
           style={{ display: "none", alignItems: "center", gap: "16px" }}
         >
-          {/* Language Toggle */}
           <button
             onClick={toggleLang}
             style={{
@@ -140,7 +136,6 @@ export default function Navbar() {
             <span>{i18n.language.substring(0, 2).toUpperCase()}</span>
           </button>
 
-          {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
             style={{
@@ -203,7 +198,6 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Mobile Toggle */}
         <button
           className="mobile-toggle"
           onClick={() => setIsOpen(!isOpen)}
@@ -217,7 +211,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Overlay */}
       {isOpen && (
         <div
           style={{
@@ -265,8 +258,9 @@ export default function Navbar() {
               onClick={toggleTheme}
               style={{
                 background: "var(--input-bg)",
+                color: "var(--text-primary)",
                 borderRadius: "20px",
-                padding: "4px",
+                padding: "8px 12px",
                 display: "flex",
                 alignItems: "center",
                 gap: "8px",

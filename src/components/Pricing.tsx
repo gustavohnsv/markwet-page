@@ -27,7 +27,6 @@ export default function Pricing() {
           className="grid grid-cols-2"
           style={{ maxWidth: "900px", margin: "0 auto" }}
         >
-          {/* Free Plan */}
           <div
             className="card"
             style={{ display: "flex", flexDirection: "column" }}
@@ -111,7 +110,6 @@ export default function Pricing() {
             </a>
           </div>
 
-          {/* Premium Plan */}
           <div
             className="card"
             style={{

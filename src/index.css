@@ -1,5 +1,4 @@
 :root {
-  /* LIGHT MODE (Default) */
   --bg-color: #f9faf9;
   --surface-color: #ffffff;
   --text-primary: #1c1c1c;
@@ -25,14 +24,12 @@
   --status-warning: #fb8c00;
   --status-inactive: #64748b;
 
-  /* Shared spacing/layout */
   --max-width: 1200px;
   --header-height: 80px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    /* DARK MODE (System Preference) */
     --bg-color: #121212;
     --surface-color: #1d1d1d;
     --text-primary: #ffffff;
@@ -53,8 +50,6 @@
 }
 
 :root[data-theme="dark"] {
-  /* DARK MODE (Manual Override) */
-  --bg-color: #121212;
   --surface-color: #1d1d1d;
   --text-primary: #ffffff;
   --text-secondary: #bdbdbd;
@@ -80,6 +75,7 @@ body,
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -176,7 +172,6 @@ button:active {
   filter: brightness(0.95);
 }
 
-/* Utilities */
 .text-center {
   text-align: center;
 }

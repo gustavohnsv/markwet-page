@@ -86,7 +86,6 @@ export default function Testimonials() {
                     backgroundColor: "var(--border-color)",
                   }}
                 ></div>{" "}
-                {/* Avatar placeholder */}
                 <div>
                   <div style={{ fontWeight: "bold", fontSize: "0.95rem" }}>
                     {t.name}
