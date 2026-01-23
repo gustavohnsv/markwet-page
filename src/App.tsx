@@ -10,7 +10,7 @@ import TermsOfService from "./pages/TermsOfService";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Toaster position="top-center" richColors />
       <Routes>
         <Route path="/" element={<Layout />}>
