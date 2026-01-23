@@ -1,0 +1,217 @@
+{
+  "navbar": {
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "download": "Download",
+    "downloadApp": "Download App",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "hero": {
+    "headline": "Shopping is better <1>together.</1>",
+    "subheadline": "Stop buying the same milk twice. Mark[we]t syncs your lists in real-time, so everyone stays on the same page - even when offline.",
+    "ctaDownload": "Download Now",
+    "ctaHowItWorks": "How it works",
+    "realtimeSync": "Real-time Sync",
+    "securePrivate": "Secure & Private"
+  },
+  "features": {
+    "heading": "Everything you need",
+    "subheading": "Mark[we]t is packed with features to make your shopping experience smooth and efficient.",
+    "realtime": {
+      "title": "Real-time Collaboration",
+      "desc": "Share lists with family and friends. Changes appear instantly on everyone's device."
+    },
+    "autosync": {
+      "title": "Auto Sync",
+      "desc": "Never lose a list again. Your data is automatically synced across all your devices securely."
+    },
+    "offline": {
+      "title": "Offline Mode",
+      "desc": "No internet? No problem. Add items offline and we'll sync them when you're back online."
+    },
+    "multilanguage": {
+      "title": "Multi-language",
+      "desc": "Available in multiple languages to suit your preferences and locale."
+    },
+    "sounds": {
+      "title": "Interactive Sounds",
+      "desc": "Satisfying sound effects when checking off items make shopping fun."
+    },
+    "notifications": {
+      "title": "Smart Notifications",
+      "desc": "Get notified when someone adds an item or completes a shopping trip."
+    }
+  },
+  "howItWorks": {
+    "heading": "How it Works",
+    "subheading": "Simple coordination in four easy steps.",
+    "step1": {
+      "title": "1. Create a List",
+      "desc": "Start by creating a new shopping list or to-do list in seconds."
+    },
+    "step2": {
+      "title": "2. Invite People",
+      "desc": "Send an invite link to your partner, roommate, or family member."
+    },
+    "step3": {
+      "title": "3. Collaborate",
+      "desc": "Add items and see changes appear instantly on everyone's screen."
+    },
+    "step4": {
+      "title": "4. Shop & Sync",
+      "desc": "Check off items as you shop. Everything stays perfectly in sync."
+    }
+  },
+  "screenshots": {
+    "heading": "App Experience"
+  },
+  "pricing": {
+    "heading": "Simple Pricing",
+    "subheading": "Choose the specific plan that works for you.",
+    "free": {
+      "title": "Free",
+      "price": "$0",
+      "period": "/mo",
+      "desc": "Perfect for individuals and couples.",
+      "feat1": "Up to 3 lists",
+      "feat2": "Real-time sync",
+      "feat3": "Basic icons",
+      "feat4": "Smart suggestions",
+      "feat5": "No ads",
+      "cta": "Get Started Free"
+    },
+    "premium": {
+      "badge": "MOST POPULAR",
+      "title": "Premium",
+      "price": "$2.99",
+      "period": "/mo",
+      "desc": "For power users and families.",
+      "feat1": "Unlimited lists",
+      "feat2": "Real-time sync",
+      "feat3": "Custom icons & sounds",
+      "feat4": "Smart suggestions",
+      "feat5": "Ad-free experience",
+      "cta": "Try Premium"
+    }
+  },
+  "testimonials": {
+    "heading": "Reviews",
+    "t1": {
+      "content": "This tool has redefined our global collaboration. Simply essential for project success.",
+      "role": "Senior Product Manager"
+    },
+    "t2": {
+      "content": "Real-time synchronization allowed our teams across three continents to work as one.",
+      "role": "Director of Engineering"
+    },
+    "t3": {
+      "content": "The best user experience I've seen in an app of this kind. World-class quality standard.",
+      "role": "UX/UI Designer"
+    }
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "q1": "Is Mark[we]t really free?",
+    "a1": "Yes! The free plan allows you to create only one list with a maximum of 3 guests.",
+    "q2": "Is it available on Android and iOS?",
+    "a2": "Not yet. The app is not available on the App Store or Google Play Store yet, but we are working on it!",
+    "q3": "Does it work without internet?",
+    "a3": "Yes. You can add items offline, and they will sync to the cloud as soon as you reconnect.",
+    "q4": "Is my data secure?",
+    "a4": "We use industry-standard encryption to keep your lists private and secure. We never sell your personal data.",
+    "q5": "Can I share a list with someone who doesn't have the app?",
+    "a5": "They will need to download the app to collaborate in real-time, but invite links make onboarding instant."
+  },
+  "footer": {
+    "ready": "Ready to simplify your shopping?",
+    "desc": "Collaborative shopping lists reimagined for modern life.",
+    "product": "Product",
+    "support": "Support",
+    "downloadAPK": "Download APK",
+    "apkNote": "Note: APK installation requires enabling unknown sources on your device.",
+    "madeBy": "Project made by"
+  },
+  "help": {
+    "title": "Help Center",
+    "subtitle": "How can we help you today?",
+    "placeholder": "Search for articles...",
+    "gettingStarted": "Getting Started",
+    "gettingStartedDesc": "Learn the basics of creating and sharing lists.",
+    "account": "Account & Settings",
+    "accountDesc": "Manage your profile, language, and theme preferences.",
+    "troubleshooting": "Troubleshooting",
+    "troubleshootingDesc": "Solutions to common issues and syncing problems.",
+    "popular": "Popular Articles",
+    "articles": {
+      "invite-friends": {
+        "title": "How to invite friends to a list",
+        "content": [
+          "Sharing lists on Mark[we]t is very simple. Follow the steps below:",
+          "1. Open the list you want to share.",
+          "2. Go to the list settings.",
+          "3. Enter your friend's user code and click Add."
+        ]
+      },
+      "android-sync": {
+        "title": "Syncing issues on Android",
+        "content": "Your data should sync automatically. If you notice delays, check your internet connection and ensure power saving mode isn't restricting the app."
+      },
+      "is-it-free": {
+        "title": "Is Mark[we]t free to use?",
+        "content": "Yes! The basic plan is free. Check our Pricing page for more details on Premium plans."
+      },
+      "delete-account": {
+        "title": "Delete my account",
+        "content": "We're sorry to see you go. To permanently delete your account, go to Settings > Account > Delete Account. This action cannot be undone."
+      }
+    },
+    "readMore": "Read article →"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "intro": "Introduction",
+    "introText": "Welcome to Mark[we]t (\"we,\" \"our,\" or \"us\"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us.",
+    "collect": "Information We Collect",
+    "collectText": "We collect personal information that you voluntarily provide to us when you register on the App, express an interest in obtaining information about us or our products and Services, when you participate in activities on the App or otherwise when you contact us.",
+    "personalData": "Personal Data:",
+    "personalDataText": "Name, email address, password, profile picture.",
+    "usageData": "Usage Data:",
+    "usageDataText": "Shopping lists, item details, completed tasks.",
+    "deviceData": "Device Data:",
+    "deviceDataText": "IP address, device type, operating system.",
+    "use": "How We Use Your Information",
+    "useText": "We use the information we collect or receive:",
+    "useList1": "To facilitate account creation and logon process.",
+    "useList2": "To send administrative information to you.",
+    "useList3": "To fulfill and manage your orders.",
+    "useList4": "To enable user-to-user communications (collaboration).",
+    "sharing": "Sharing Your Information",
+    "sharingText": "We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations. We do not sell your personal data to third parties."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2026",
+    "agreement": "1. Agreement to Terms",
+    "agreementText": "These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Mark[we]t (\"we,\" \"us\" or \"our\"), concerning your access to and use of the Mark[we]t application and website.",
+    "reps": "2. User Representations",
+    "repsText": "By using the Application, you represent and warrant that:",
+    "repsList1": "All registration information you submit will be true, accurate, current, and complete.",
+    "repsList2": "You will maintain the accuracy of such information and promptly update such registration information as necessary.",
+    "repsList3": "You have the legal capacity and you agree to comply with these Terms of Service.",
+    "repsList4": "You are not a minor in the jurisdiction in which you reside.",
+    "prohibited": "3. Prohibited Activities",
+    "prohibitedText": "You may not access or use the Application for any purpose other than that for which we make the Application available. The Application may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. Systematically retrieving data or other content from the Application to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us is prohibited.",
+    "termination": "4. Termination",
+    "terminationText": "We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms."
+  },
+  "toasts": {
+    "unavailable": "Unavailable at the moment",
+    "apkWarning": "Unavailable. Note: APK installation requires enabling unknown sources."
+  }
+}

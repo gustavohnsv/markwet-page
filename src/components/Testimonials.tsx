@@ -1,0 +1,111 @@
+import { Star } from "lucide-react";
+import { useTranslation } from "react-i18next";
+
+export default function Testimonials() {
+  const { t } = useTranslation();
+
+  const testimonials = [
+    {
+      name: "John Doe",
+      role: t("testimonials.t1.role"),
+      content: t("testimonials.t1.content"),
+      rating: 5,
+    },
+    {
+      name: "John Smith",
+      role: t("testimonials.t2.role"),
+      content: t("testimonials.t2.content"),
+      rating: 5,
+    },
+    {
+      name: "Jane Doe",
+      role: t("testimonials.t3.role"),
+      content: t("testimonials.t3.content"),
+      rating: 4,
+    },
+  ];
+
+  return (
+    <section
+      id="reviews"
+      className="section"
+      style={{ backgroundColor: "var(--surface-color)" }}
+    >
+      <div className="container">
+        <div className="text-center mb-12">
+          <h2
+            style={{
+              fontSize: "2.5rem",
+              fontWeight: 700,
+              marginBottom: "16px",
+              color: "var(--text-primary)",
+            }}
+          >
+            {t("testimonials.heading")}
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-3">
+          {testimonials.map((t, index) => (
+            <div
+              key={index}
+              className="card"
+              style={{ display: "flex", flexDirection: "column", gap: "16px" }}
+            >
+              <div style={{ display: "flex", gap: "4px" }}>
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    size={16}
+                    fill={i < t.rating ? "#FB8C00" : "transparent"}
+                    color={i < t.rating ? "#FB8C00" : "#E0E0E0"}
+                  />
+                ))}
+              </div>
+              <p
+                style={{
+                  fontStyle: "italic",
+                  color: "var(--text-secondary)",
+                  flex: 1,
+                }}
+              >
+                "{t.content}"
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "12px",
+                  marginTop: "auto",
+                }}
+              >
+                <div
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    borderRadius: "50%",
+                    backgroundColor: "var(--border-color)",
+                  }}
+                ></div>{" "}
+                {/* Avatar placeholder */}
+                <div>
+                  <div style={{ fontWeight: "bold", fontSize: "0.95rem" }}>
+                    {t.name}
+                  </div>
+                  <div
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "var(--text-secondary)",
+                    }}
+                  >
+                    {t.role}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

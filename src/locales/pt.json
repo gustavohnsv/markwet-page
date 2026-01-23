@@ -1,0 +1,217 @@
+{
+  "navbar": {
+    "features": "Recursos",
+    "howItWorks": "Como Funciona",
+    "pricing": "Preços",
+    "reviews": "Avaliações",
+    "faq": "FAQ",
+    "download": "Baixar",
+    "downloadApp": "Baixar App",
+    "theme": "Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro"
+  },
+  "hero": {
+    "headline": "Fazer compras é melhor <1>juntos.</1>",
+    "subheadline": "Pare de comprar o mesmo leite duas vezes. O Mark[we]t sincroniza suas listas em tempo real, para que todos fiquem na mesma página - mesmo offline.",
+    "ctaDownload": "Baixar Agora",
+    "ctaHowItWorks": "Como funciona",
+    "realtimeSync": "Sincronização em Tempo Real",
+    "securePrivate": "Seguro e Privado"
+  },
+  "features": {
+    "heading": "Tudo o que você precisa",
+    "subheading": "O Mark[we]t vem repleto de recursos para tornar sua experiência de compra tranquila e eficiente.",
+    "realtime": {
+      "title": "Colaboração em Tempo Real",
+      "desc": "Compartilhe listas com familiares e amigos. As alterações aparecem instantaneamente no dispositivo de todos."
+    },
+    "autosync": {
+      "title": "Sincronização Automática",
+      "desc": "Nunca mais perca uma lista. Seus dados são sincronizados automaticamente em todos os seus dispositivos com segurança."
+    },
+    "offline": {
+      "title": "Modo Offline",
+      "desc": "Sem internet? Sem problemas. Adicione itens offline e nós os sincronizaremos quando você estiver online novamente."
+    },
+    "multilanguage": {
+      "title": "Multi-idiomas",
+      "desc": "Disponível em vários idiomas para atender às suas preferências e localidade."
+    },
+    "sounds": {
+      "title": "Sons Interativos",
+      "desc": "Efeitos sonoros satisfatórios ao marcar itens tornam as compras divertidas."
+    },
+    "notifications": {
+      "title": "Notificações Inteligentes",
+      "desc": "Seja notificado quando alguém adicionar um item ou concluir uma compra."
+    }
+  },
+  "howItWorks": {
+    "heading": "Como Funciona",
+    "subheading": "Coordenação simples em quatro passos fáceis.",
+    "step1": {
+      "title": "1. Crie uma Lista",
+      "desc": "Comece criando uma nova lista de compras ou de tarefas em segundos."
+    },
+    "step2": {
+      "title": "2. Convide Pessoas",
+      "desc": "Envie um link de convite para seu parceiro, colega de quarto ou familiar."
+    },
+    "step3": {
+      "title": "3. Colabore",
+      "desc": "Adicione itens e veja as alterações aparecerem instantaneamente na tela de todos."
+    },
+    "step4": {
+      "title": "4. Compre & Sincronize",
+      "desc": "Marque os itens enquanto compra. Tudo permanece perfeitamente sincronizado."
+    }
+  },
+  "screenshots": {
+    "heading": "Experiência do App"
+  },
+  "pricing": {
+    "heading": "Preço Simples",
+    "subheading": "Escolha o plano específico que funciona para você.",
+    "free": {
+      "title": "Grátis",
+      "price": "R$0",
+      "period": "/mês",
+      "desc": "Perfeito para indivíduos e casais.",
+      "feat1": "Até 3 listas",
+      "feat2": "Sincronização em tempo real",
+      "feat3": "Ícones básicos",
+      "feat4": "Sugestões inteligentes",
+      "feat5": "Sem anúncios",
+      "cta": "Comece Grátis"
+    },
+    "premium": {
+      "badge": "MAIS POPULAR",
+      "title": "Premium",
+      "price": "R$10,90",
+      "period": "/mês",
+      "desc": "Para usuários avançados e famílias.",
+      "feat1": "Listas ilimitadas",
+      "feat2": "Sincronização em tempo real",
+      "feat3": "Ícones e sons personalizados",
+      "feat4": "Sugestões inteligentes",
+      "feat5": "Experiência sem anúncios",
+      "cta": "Experimente Premium"
+    }
+  },
+  "testimonials": {
+    "heading": "Avaliações",
+    "t1": {
+      "content": "Esta ferramenta redefiniu nossa colaboração global. Simplesmente essencial para o sucesso do projeto.",
+      "role": "Gerente de Produto Sênior"
+    },
+    "t2": {
+      "content": "A sincronização em tempo real permitiu que nossas equipes em três continentes trabalhassem como uma só.",
+      "role": "Diretor de Engenharia"
+    },
+    "t3": {
+      "content": "A melhor experiência de usuário que já vi em um aplicativo deste tipo. Padrão mundial de qualidade.",
+      "role": "Designer UX/UI"
+    }
+  },
+  "faq": {
+    "heading": "Perguntas Frequentes",
+    "q1": "O Mark[we]t é realmente gratuito?",
+    "a1": "Sim! O plano gratuito permite criar apenas uma lista com no máximo 3 convidados.",
+    "q2": "Já está disponível para Android e iOS?",
+    "a2": "Ainda não. O app ainda não está disponível na App Store nem Google Play Store, mas estamos trabalhando nisso!",
+    "q3": "Funciona sem internet?",
+    "a3": "Sim. Você pode adicionar itens offline, e eles sincronizarão com a nuvem assim que você se reconectar.",
+    "q4": "Meus dados estão seguros?",
+    "a4": "Usamos criptografia padrão da indústria para manter suas listas privadas e seguras. Nunca vendemos seus dados pessoais.",
+    "q5": "Posso compartilhar uma lista com alguém que não tem o app?",
+    "a5": "Eles precisarão baixar o app para colaborar em tempo real, mas os links de convite tornam a integração instantânea."
+  },
+  "footer": {
+    "ready": "Pronto para simplificar suas compras?",
+    "desc": "Listas de compras colaborativas reinventadas para a vida moderna.",
+    "product": "Produto",
+    "support": "Suporte",
+    "downloadAPK": "Baixar APK",
+    "apkNote": "Nota: A instalação via APK requer habilitar fontes desconhecidas no seu dispositivo.",
+    "madeBy": "Projeto feito por"
+  },
+  "help": {
+    "title": "Central de Ajuda",
+    "subtitle": "Como podemos ajudar você hoje?",
+    "placeholder": "Pesquisar artigos...",
+    "gettingStarted": "Começando",
+    "gettingStartedDesc": "Aprenda o básico sobre criar e compartilhar listas.",
+    "account": "Conta & Configurações",
+    "accountDesc": "Gerencie seu perfil, idioma e preferências de tema.",
+    "troubleshooting": "Solução de Problemas",
+    "troubleshootingDesc": "Soluções para problemas comuns e de sincronização.",
+    "popular": "Artigos Populares",
+    "articles": {
+      "invite-friends": {
+        "title": "Como convidar amigos para uma lista",
+        "content": [
+          "Compartilhar listas no Mark[we]t é muito simples. Siga os passos abaixo:",
+          "1. Abra a lista que você deseja compartilhar.",
+          "2. Vá para as configurações da lista.",
+          "3. Insira o código de usuário do seu amigo e clique em Adicionar."
+        ]
+      },
+      "android-sync": {
+        "title": "Problemas de sincronização no Android",
+        "content": "Seus dados devem sincronizar automaticamente. Se notar atrasos, verifique sua conexão com a internet e se o modo de economia de energia não está restringindo o aplicativo."
+      },
+      "is-it-free": {
+        "title": "O Mark[we]t é gratuito?",
+        "content": "Sim! O plano básico é gratuito. Veja nossa página de preços para mais detalhes sobre os planos Premium."
+      },
+      "delete-account": {
+        "title": "Excluir minha conta",
+        "content": "Lamentamos ver você partir. Para excluir sua conta permanentemente, vá em Configurações > Conta > Excluir Conta. Esta ação não pode ser desfeita."
+      }
+    },
+    "readMore": "Ler artigo →"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização: Janeiro de 2026",
+    "intro": "Introdução",
+    "introText": "Bem-vindo ao Mark[we]t (\"nós\", \"nosso\"). Estamos comprometidos em proteger suas informações pessoais e seu direito à privacidade. Se você tiver alguma dúvida ou preocupação sobre este aviso de privacidade ou nossas práticas em relação às suas informações pessoais, entre em contato conosco.",
+    "collect": "Informações que Coletamos",
+    "collectText": "Coletamos informações pessoais que você nos fornece voluntariamente ao se registrar no App, expressar interesse em obter informações sobre nós ou nossos produtos e Serviços, ao participar de atividades no App ou de outra forma ao entrar em contato conosco.",
+    "personalData": "Dados Pessoais:",
+    "personalDataText": "Nome, endereço de e-mail, senha, foto de perfil.",
+    "usageData": "Dados de Uso:",
+    "usageDataText": "Listas de compras, detalhes de itens, tarefas concluídas.",
+    "deviceData": "Dados do Dispositivo:",
+    "deviceDataText": "Endereço IP, tipo de dispositivo, sistema operacional.",
+    "use": "Como Usamos Suas Informações",
+    "useText": "Usamos as informações que coletamos ou recebemos:",
+    "useList1": "Para facilitar a criação de conta e o processo de login.",
+    "useList2": "Para enviar informações administrativas para você.",
+    "useList3": "Para atender e gerenciar seus pedidos.",
+    "useList4": "Para permitir comunicações entre usuários (colaboração).",
+    "sharing": "Compartilhamento de Suas Informações",
+    "sharingText": "Compartilhamos informações apenas com o seu consentimento, para cumprir leis, fornecer serviços, proteger seus direitos ou cumprir obrigações comerciais. Não vendemos seus dados pessoais a terceiros."
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização: Janeiro de 2026",
+    "agreement": "1. Concordância com os Termos",
+    "agreementText": "Estes Termos de Serviço constituem um acordo legalmente vinculativo feito entre você, seja pessoalmente ou em nome de uma entidade (“você”) e Mark[we]t (\"nós\", \"nosso\"), referente ao seu acesso e uso do aplicativo e site Mark[we]t.",
+    "reps": "2. Representações do Usuário",
+    "repsText": "Ao usar o Aplicativo, você declara e garante que:",
+    "repsList1": "Todas as informações de registro que você enviar serão verdadeiras, precisas, atuais e completas.",
+    "repsList2": "Você manterá a precisão de tais informações e atualizará prontamente tais informações de registro conforme necessário.",
+    "repsList3": "Você tem capacidade legal e concorda em cumprir estes Termos de Serviço.",
+    "repsList4": "Você não é menor de idade na jurisdição em que reside.",
+    "prohibited": "3. Atividades Proibidas",
+    "prohibitedText": "Você não pode acessar ou usar o Aplicativo para qualquer finalidade diferente daquela para a qual disponibilizamos o Aplicativo. O Aplicativo não pode ser usado em conexão com quaisquer empreendimentos comerciais, exceto aqueles especificamente endossados ou aprovados por nós. Recuperar sistematicamente dados ou outro conteúdo do Aplicativo para criar ou compilar, direta ou indiretamente, uma coleção, compilação, banco de dados ou diretório sem permissão por escrito de nós é proibido.",
+    "termination": "4. Rescisão",
+    "terminationText": "Podemos encerrar ou suspender sua conta e barrar o acesso ao Serviço imediatamente, sem aviso prévio ou responsabilidade, a nosso exclusivo critério, por qualquer motivo, inclusive, sem limitação, violação dos Termos."
+  },
+  "toasts": {
+    "unavailable": "Indisponível no momento",
+    "apkWarning": "Indisponível. Nota: A instalação via APK requer habilitar fontes desconhecidas."
+  }
+}
