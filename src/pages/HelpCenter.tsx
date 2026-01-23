@@ -1,4 +1,4 @@
-import { Search, Book, MessageCircle, FileQuestion } from "lucide-react";
+import { MdSearch, MdBook, MdMessage, MdHelpOutline } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { HELP_ARTICLES } from "../data/helpArticles";
@@ -44,7 +44,7 @@ export default function HelpCenter() {
             alignItems: "center",
           }}
         >
-          <Search
+          <MdSearch
             style={{
               position: "absolute",
               left: "16px",
@@ -73,19 +73,19 @@ export default function HelpCenter() {
       <div className="grid grid-cols-3">
         {[
           {
-            icon: <Book size={32} />,
+            icon: <MdBook size={32} />,
             title: t("help.gettingStarted"),
             desc: t("help.gettingStartedDesc"),
             link: "/help/category/getting-started",
           },
           {
-            icon: <MessageCircle size={32} />,
+            icon: <MdMessage size={32} />,
             title: t("help.account"),
             desc: t("help.accountDesc"),
             link: "/help/category/account",
           },
           {
-            icon: <FileQuestion size={32} />,
+            icon: <MdHelpOutline size={32} />,
             title: t("help.troubleshooting"),
             desc: t("help.troubleshootingDesc"),
             link: "/help/category/troubleshooting",

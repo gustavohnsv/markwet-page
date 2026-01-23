@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+import { MdStar, MdStarBorder } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function Testimonials() {
@@ -53,14 +53,13 @@ export default function Testimonials() {
               style={{ display: "flex", flexDirection: "column", gap: "16px" }}
             >
               <div style={{ display: "flex", gap: "4px" }}>
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    size={16}
-                    fill={i < t.rating ? "#FB8C00" : "transparent"}
-                    color={i < t.rating ? "#FB8C00" : "#E0E0E0"}
-                  />
-                ))}
+                {[...Array(5)].map((_, i) =>
+                  i < t.rating ? (
+                    <MdStar key={i} size={20} color="#FB8C00" />
+                  ) : (
+                    <MdStarBorder key={i} size={20} color="#E0E0E0" />
+                  ),
+                )}
               </div>
               <p
                 style={{

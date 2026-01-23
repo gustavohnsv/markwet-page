@@ -1,4 +1,11 @@
-import { Menu, X, Download, Sun, Moon, Languages } from "lucide-react";
+import {
+  MdMenu,
+  MdClose,
+  MdDownload,
+  MdSunny,
+  MdDarkMode,
+  MdLanguage,
+} from "react-icons/md";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -123,7 +130,7 @@ export default function Navbar() {
               fontWeight: 600,
             }}
           >
-            <Languages size={16} />
+            <MdLanguage size={16} />
             <span>{i18n.language.substring(0, 2).toUpperCase()}</span>
           </button>
 
@@ -153,8 +160,8 @@ export default function Navbar() {
                 color: "var(--text-secondary)",
               }}
             >
-              <Sun size={14} />
-              <Moon size={14} />
+              <MdSunny size={14} />
+              <MdDarkMode size={14} />
             </div>
             <div
               style={{
@@ -173,7 +180,11 @@ export default function Navbar() {
                 color: "var(--text-primary)",
               }}
             >
-              {theme === "dark" ? <Moon size={14} /> : <Sun size={14} />}
+              {theme === "dark" ? (
+                <MdDarkMode size={14} />
+              ) : (
+                <MdSunny size={14} />
+              )}
             </div>
           </button>
 
@@ -196,7 +207,7 @@ export default function Navbar() {
             color: "var(--text-primary)",
           }}
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          {isOpen ? <MdClose size={24} /> : <MdMenu size={24} />}
         </button>
       </div>
 
@@ -257,7 +268,11 @@ export default function Navbar() {
               }}
             >
               {theme === "dark" ? t("navbar.darkMode") : t("navbar.lightMode")}{" "}
-              {theme === "dark" ? <Moon size={16} /> : <Sun size={16} />}
+              {theme === "dark" ? (
+                <MdDarkMode size={16} />
+              ) : (
+                <MdSunny size={16} />
+              )}
             </button>
           </div>
 
@@ -267,7 +282,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             style={{ justifyContent: "center" }}
           >
-            {t("navbar.downloadApp")} <Download size={18} />
+            {t("navbar.downloadApp")} <MdDownload size={18} />
           </a>
         </div>
       )}

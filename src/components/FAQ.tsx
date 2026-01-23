@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function FAQ() {
@@ -74,9 +74,9 @@ export default function FAQ() {
                 >
                   {faq.q}
                   {isOpen ? (
-                    <ChevronUp color="var(--text-secondary)" />
+                    <MdKeyboardArrowUp color="var(--text-secondary)" />
                   ) : (
-                    <ChevronDown color="var(--text-secondary)" />
+                    <MdKeyboardArrowDown color="var(--text-secondary)" />
                   )}
                 </button>
 

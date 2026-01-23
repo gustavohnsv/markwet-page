@@ -1,4 +1,9 @@
-import { UserPlus, ListTodo, Share2, CheckCircle2 } from "lucide-react";
+import {
+  MdPersonAdd,
+  MdFactCheck,
+  MdShare,
+  MdCheckCircle,
+} from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function HowItWorks() {
@@ -6,22 +11,22 @@ export default function HowItWorks() {
 
   const steps = [
     {
-      icon: <ListTodo size={40} />,
+      icon: <MdFactCheck size={40} />,
       title: t("howItWorks.step1.title"),
       description: t("howItWorks.step1.desc"),
     },
     {
-      icon: <UserPlus size={40} />,
+      icon: <MdPersonAdd size={40} />,
       title: t("howItWorks.step2.title"),
       description: t("howItWorks.step2.desc"),
     },
     {
-      icon: <Share2 size={40} />,
+      icon: <MdShare size={40} />,
       title: t("howItWorks.step3.title"),
       description: t("howItWorks.step3.desc"),
     },
     {
-      icon: <CheckCircle2 size={40} />,
+      icon: <MdCheckCircle size={40} />,
       title: t("howItWorks.step4.title"),
       description: t("howItWorks.step4.desc"),
     },

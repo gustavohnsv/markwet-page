@@ -1,4 +1,11 @@
-import { WifiOff, Users, Bell, RefreshCw, Globe, Volume2 } from "lucide-react";
+import {
+  MdWifiOff,
+  MdPeople,
+  MdNotifications,
+  MdRefresh,
+  MdPublic,
+  MdVolumeUp,
+} from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function Features() {
@@ -6,32 +13,32 @@ export default function Features() {
 
   const features = [
     {
-      icon: <Users size={32} />,
+      icon: <MdPeople size={32} />,
       title: t("features.realtime.title"),
       description: t("features.realtime.desc"),
     },
     {
-      icon: <RefreshCw size={32} />,
+      icon: <MdRefresh size={32} />,
       title: t("features.autosync.title"),
       description: t("features.autosync.desc"),
     },
     {
-      icon: <WifiOff size={32} />,
+      icon: <MdWifiOff size={32} />,
       title: t("features.offline.title"),
       description: t("features.offline.desc"),
     },
     {
-      icon: <Globe size={32} />,
+      icon: <MdPublic size={32} />,
       title: t("features.multilanguage.title"),
       description: t("features.multilanguage.desc"),
     },
     {
-      icon: <Volume2 size={32} />,
+      icon: <MdVolumeUp size={32} />,
       title: t("features.sounds.title"),
       description: t("features.sounds.desc"),
     },
     {
-      icon: <Bell size={32} />,
+      icon: <MdNotifications size={32} />,
       title: t("features.notifications.title"),
       description: t("features.notifications.desc"),
     },

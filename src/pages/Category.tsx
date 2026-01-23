@@ -1,6 +1,6 @@
 import { useNavigate, useParams, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowLeft } from "lucide-react";
+import { MdArrowBack } from "react-icons/md";
 import { HELP_ARTICLES } from "../data/helpArticles";
 
 export default function Category() {
@@ -68,7 +68,7 @@ export default function Category() {
           fontSize: "1rem",
         }}
       >
-        <ArrowLeft size={20} />
+        <MdArrowBack size={20} />
         {t("common.back", "Voltar")}
       </button>
 

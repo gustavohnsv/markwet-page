@@ -1,4 +1,4 @@
-import { Check, X } from "lucide-react";
+import { MdCheck, MdClose } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function Pricing() {
@@ -77,28 +77,28 @@ export default function Pricing() {
               }}
             >
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.free.feat1")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.free.feat2")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.free.feat3")}
               </li>
               <li
                 className="flex items-center gap-2"
                 style={{ color: "var(--text-deactivated)" }}
               >
-                <X size={20} /> {t("pricing.free.feat4")}
+                <MdClose size={20} /> {t("pricing.free.feat4")}
               </li>
               <li
                 className="flex items-center gap-2"
                 style={{ color: "var(--text-deactivated)" }}
               >
-                <X size={20} /> {t("pricing.free.feat5")}
+                <MdClose size={20} /> {t("pricing.free.feat5")}
               </li>
             </ul>
 
@@ -184,23 +184,23 @@ export default function Pricing() {
               }}
             >
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.premium.feat1")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.premium.feat2")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.premium.feat3")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.premium.feat4")}
               </li>
               <li className="flex items-center gap-2">
-                <Check size={20} color="var(--success-color)" />{" "}
+                <MdCheck size={20} color="var(--success-color)" />{" "}
                 {t("pricing.premium.feat5")}
               </li>
             </ul>

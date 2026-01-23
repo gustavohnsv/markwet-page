@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# Mark<span style="color: #2e7d32">[we]</span>t
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Shopping is better together.**  
+> Collaborative shopping lists reimagined for modern life.
 
-Currently, two official plugins are available:
+**Mark[we]t** is a modern landing page for a collaborative shopping list application. It showcases a clean, responsive design with support for internationalization, dark/light themes, and interactive elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **🎨 Modern UI/UX**: Clean interface built with React and custom CSS variables.
+- **🌍 Internationalization (i18n)**: Full support for English and Portuguese (PT-BR).
+- **🌓 Dark/Light Mode**: Automatic theme detection and manual toggle.
+- **📱 Responsive Design**: Optimized for all screen sizes.
+- **⚡ Fast Performance**: Powered by Vite.
+- **🔔 Interactive Notifications**: Toast notifications using `sonner`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: CSS Modules / Variables
+- **Routing**: [React Router](https://reactrouter.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Internationalization**: [i18next](https://www.i18next.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Project Structure
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+markwet-page/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components (Hero, Navbar, Footer, etc.)
+│   ├── data/        # Static data files
+│   ├── locales/     # Translation files (en.json, pt.json)
+│   ├── pages/       # Page components (Home, HelpCenter, etc.)
+│   ├── App.tsx      # Main application component
+│   └── main.tsx     # Entry point
+└── ...config files  # Vite, TypeScript, ESLint configs
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<p align="center">
+  Project made by <a href="https://github.com/gustavohnsv" target="_blank">@gustavohnsv</a>
+</p>

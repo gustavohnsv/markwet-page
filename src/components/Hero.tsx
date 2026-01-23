@@ -1,4 +1,4 @@
-import { Download, Zap, Settings, Plus } from "lucide-react";
+import { MdDownload, MdBolt, MdSettings, MdAdd } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
 export default function Hero() {
@@ -52,7 +52,7 @@ export default function Hero() {
               className="btn-primary"
               style={{ padding: "16px 32px", fontSize: "1.1rem" }}
             >
-              {t("hero.ctaDownload")} <Download size={20} />
+              {t("hero.ctaDownload")} <MdDownload size={20} />
             </a>
             <a
               href="#how-it-works"
@@ -72,7 +72,7 @@ export default function Hero() {
             }}
           >
             <div className="flex items-center">
-              <Zap size={20} color="var(--status-warning)" />
+              <MdBolt size={20} color="var(--status-warning)" />
               <span style={{ paddingLeft: "5px", fontSize: "0.9rem" }}>
                 {t("hero.realtimeSync")}
               </span>
@@ -168,7 +168,7 @@ export default function Hero() {
                 }}
               >
                 <div style={{ fontWeight: "bold" }}>Groceries</div>
-                <Settings size={24} color="var(--text-secondary)" />
+                <MdSettings size={24} color="var(--text-secondary)" />
               </div>
 
               {/* List Items */}
@@ -242,7 +242,7 @@ export default function Hero() {
                   boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
                 }}
               >
-                <Plus size={32} />
+                <MdAdd size={32} />
               </div>
             </div>
           </div>

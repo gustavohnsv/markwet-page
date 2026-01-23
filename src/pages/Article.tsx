@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ArrowLeft } from "lucide-react";
+import { MdArrowBack } from "react-icons/md";
 import { useEffect } from "react";
 
 export default function Article() {
@@ -64,7 +64,7 @@ export default function Article() {
           fontSize: "1rem",
         }}
       >
-        <ArrowLeft size={20} />
+        <MdArrowBack size={20} />
         {t("common.back", "Voltar")}
       </button>
 
