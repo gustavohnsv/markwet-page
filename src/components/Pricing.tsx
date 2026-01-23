@@ -75,30 +75,40 @@ export default function Pricing() {
                 gap: "16px",
               }}
             >
-              <li className="flex items-center gap-2">
-                <MdCheck size={20} color="var(--success-color)" />{" "}
-                {t("pricing.free.feat1")}
-              </li>
-              <li className="flex items-center gap-2">
-                <MdCheck size={20} color="var(--success-color)" />{" "}
-                {t("pricing.free.feat2")}
-              </li>
-              <li className="flex items-center gap-2">
-                <MdCheck size={20} color="var(--success-color)" />{" "}
-                {t("pricing.free.feat3")}
-              </li>
-              <li
-                className="flex items-center gap-2"
-                style={{ color: "var(--text-deactivated)" }}
-              >
-                <MdClose size={20} /> {t("pricing.free.feat4")}
-              </li>
-              <li
-                className="flex items-center gap-2"
-                style={{ color: "var(--text-deactivated)" }}
-              >
-                <MdClose size={20} /> {t("pricing.free.feat5")}
-              </li>
+              {t("pricing.free.feat1") && (
+                <li className="flex items-center gap-2">
+                  <MdCheck size={20} color="var(--success-color)" />{" "}
+                  {t("pricing.free.feat1")}
+                </li>
+              )}
+              {t("pricing.free.feat2") && (
+                <li className="flex items-center gap-2">
+                  <MdCheck size={20} color="var(--success-color)" />{" "}
+                  {t("pricing.free.feat2")}
+                </li>
+              )}
+              {t("pricing.free.feat3") && (
+                <li className="flex items-center gap-2">
+                  <MdCheck size={20} color="var(--success-color)" />{" "}
+                  {t("pricing.free.feat3")}
+                </li>
+              )}
+              {t("pricing.free.feat4") && (
+                <li
+                  className="flex items-center gap-2"
+                  style={{ color: "var(--text-deactivated)" }}
+                >
+                  <MdClose size={20} /> {t("pricing.free.feat4")}
+                </li>
+              )}
+              {t("pricing.free.feat5") && (
+                <li
+                  className="flex items-center gap-2"
+                  style={{ color: "var(--text-deactivated)" }}
+                >
+                  <MdClose size={20} /> {t("pricing.free.feat5")}
+                </li>
+              )}
             </ul>
 
             <a

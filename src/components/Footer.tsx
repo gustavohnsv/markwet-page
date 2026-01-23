@@ -40,6 +40,8 @@ export default function Footer() {
                 alignItems: "center",
                 gap: "8px",
                 cursor: "pointer",
+                minWidth: "200px",
+                justifyContent: "center",
               }}
             >
               <SiApple size={24} />
@@ -59,6 +61,8 @@ export default function Footer() {
                 alignItems: "center",
                 gap: "8px",
                 cursor: "pointer",
+                minWidth: "200px",
+                justifyContent: "center",
               }}
             >
               <SiGoogleplay size={24} />
@@ -78,6 +82,8 @@ export default function Footer() {
                 alignItems: "center",
                 gap: "8px",
                 cursor: "pointer",
+                minWidth: "200px",
+                justifyContent: "center",
               }}
             >
               <SiAndroid size={24} />

@@ -44,7 +44,7 @@
     },
     "notifications": {
       "title": "Notificações Inteligentes",
-      "desc": "Seja notificado quando alguém adicionar um item ou concluir uma compra."
+      "desc": "Seja notificado quando alguém te convidar para uma lista."
     }
   },
   "howItWorks": {
@@ -78,11 +78,11 @@
       "price": "R$0",
       "period": "/mês",
       "desc": "Perfeito para indivíduos e casais.",
-      "feat1": "Até 3 listas",
-      "feat2": "Sincronização em tempo real",
-      "feat3": "Ícones básicos",
-      "feat4": "Sugestões inteligentes",
-      "feat5": "Sem anúncios",
+      "feat1": "1 lista com até 3 convidados",
+      "feat2": "Temas claro e escuro",
+      "feat3": "",
+      "feat4": "Sem histórico da lista",
+      "feat5": "Itens somente no aplicativo",
       "cta": "Comece Grátis"
     },
     "premium": {
@@ -91,11 +91,11 @@
       "price": "R$10,90",
       "period": "/mês",
       "desc": "Para usuários avançados e famílias.",
-      "feat1": "Listas ilimitadas",
-      "feat2": "Sincronização em tempo real",
-      "feat3": "Ícones e sons personalizados",
-      "feat4": "Sugestões inteligentes",
-      "feat5": "Experiência sem anúncios",
+      "feat1": "Listas e convidados ilimitados",
+      "feat2": "Temas personalizáveis",
+      "feat3": "Suporte prioritário",
+      "feat4": "Futuro: Histórico completo da lista",
+      "feat5": "Futuro: Exportação da lista",
       "cta": "Experimente Premium"
     }
   },

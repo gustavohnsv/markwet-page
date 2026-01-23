@@ -107,12 +107,10 @@ export default function Hero() {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              width: "120%",
-              height: "120%",
-              background:
-                "radial-gradient(circle, var(--btn-secondary-bg) 0%, transparent 70%)",
+              width: "200%",
+              height: "200%",
               zIndex: -1,
-              opacity: 0.6,
+              opacity: 1,
             }}
           />
 
@@ -127,7 +125,8 @@ export default function Hero() {
               borderRadius: "48px",
               position: "relative",
               overflow: "hidden",
-              boxShadow: "0 50px 100px -20px rgba(0,0,0,0.2)",
+              boxShadow:
+                "0 0 50px 10px rgba(46, 125, 50, 0.3), 0 25px 50px -20px rgba(0,0,0,0.2)",
             }}
           >
             <div

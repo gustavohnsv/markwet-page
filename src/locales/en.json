@@ -44,7 +44,7 @@
     },
     "notifications": {
       "title": "Smart Notifications",
-      "desc": "Get notified when someone adds an item or completes a shopping trip."
+      "desc": "Get notified when someone invites you to a list."
     }
   },
   "howItWorks": {
@@ -78,11 +78,11 @@
       "price": "$0",
       "period": "/mo",
       "desc": "Perfect for individuals and couples.",
-      "feat1": "Up to 3 lists",
-      "feat2": "Real-time sync",
-      "feat3": "Basic icons",
-      "feat4": "Smart suggestions",
-      "feat5": "No ads",
+      "feat1": "1 list with up to 3 guests",
+      "feat2": "Light and dark themes",
+      "feat3": "",
+      "feat4": "No list history",
+      "feat5": "Items only in app",
       "cta": "Get Started Free"
     },
     "premium": {
@@ -91,11 +91,11 @@
       "price": "$2.99",
       "period": "/mo",
       "desc": "For power users and families.",
-      "feat1": "Unlimited lists",
-      "feat2": "Real-time sync",
-      "feat3": "Custom icons & sounds",
-      "feat4": "Smart suggestions",
-      "feat5": "Ad-free experience",
+      "feat1": "Unlimited lists and guests",
+      "feat2": "Customizable themes",
+      "feat3": "Priority support",
+      "feat4": "Future: Complete list history",
+      "feat5": "Future: List export",
       "cta": "Try Premium"
     }
   },

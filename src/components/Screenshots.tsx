@@ -22,7 +22,6 @@ export default function Screenshots() {
       className="section"
       style={{
         backgroundColor: "var(--surface-color)",
-        overflow: "hidden",
       }}
     >
       <div className="container text-center mb-12">
@@ -42,85 +41,99 @@ export default function Screenshots() {
         style={{
           display: "flex",
           gap: "32px",
-          overflowX: "auto",
+          overflowX: "hidden",
           padding: "20px",
-          scrollSnapType: "x mandatory",
-          justifyContent: "center",
           msOverflowStyle: "none",
           scrollbarWidth: "none",
+          position: "relative",
         }}
         className="no-scrollbar"
       >
-        {screens.map((screen, index) => (
-          <div
-            key={index}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: "20px",
-            }}
-          >
+        <div
+          style={{
+            display: "flex",
+            gap: "32px",
+            animation: "scroll 30s linear infinite",
+          }}
+        >
+          {[...screens, ...screens].map((screen, index) => (
             <div
+              key={index}
               style={{
-                flex: "0 0 auto",
-                width: "280px",
-                height: "580px",
-                backgroundColor: "#121212",
-                borderRadius: "40px",
-                border: "12px solid #2d2d2d",
-                boxShadow:
-                  "0 20px 40px rgba(0,0,0,0.2), inset 0 0 0 2px rgba(255,255,255,0.1)",
-                position: "relative",
-                overflow: "hidden",
                 display: "flex",
+                flexDirection: "column",
                 alignItems: "center",
-                justifyContent: "center",
+                gap: "20px",
               }}
             >
               <div
                 style={{
-                  position: "absolute",
-                  top: 0,
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  width: "120px",
-                  height: "24px",
-                  backgroundColor: "#2d2d2d",
-                  borderBottomLeftRadius: "16px",
-                  borderBottomRightRadius: "16px",
-                  zIndex: 10,
+                  flex: "0 0 auto",
+                  width: "280px",
+                  height: "580px",
+                  backgroundColor: "#121212",
+                  borderRadius: "40px",
+                  border: "12px solid #2d2d2d",
+                  boxShadow:
+                    "0 20px 40px rgba(0,0,0,0.2), inset 0 0 0 2px rgba(255,255,255,0.1)",
+                  position: "relative",
+                  overflow: "hidden",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
-              />
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    width: "120px",
+                    height: "24px",
+                    backgroundColor: "#2d2d2d",
+                    borderBottomLeftRadius: "16px",
+                    borderBottomRightRadius: "16px",
+                    zIndex: 10,
+                  }}
+                />
 
-              <img
-                src={screen.img}
-                alt={screen.title}
+                <img
+                  src={screen.img}
+                  alt={screen.title}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "fill",
+                    zIndex: 1,
+                  }}
+                />
+              </div>
+
+              <h3
                 style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "fill",
-                  zIndex: 1,
+                  margin: 0,
+                  fontSize: "1rem",
+                  fontWeight: 600,
+                  color: "var(--text-primary)",
                 }}
-              />
+              >
+                {screen.title}
+              </h3>
             </div>
-
-            <h3
-              style={{
-                margin: 0,
-                fontSize: "1rem",
-                fontWeight: 600,
-                color: "var(--text-primary)",
-              }}
-            >
-              {screen.title}
-            </h3>
-          </div>
-        ))}
-        <div style={{ flex: "0 0 20px" }} />
+          ))}
+        </div>
       </div>
 
       <style>{`
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
         .no-scrollbar::-webkit-scrollbar {
             display: none;
         }
