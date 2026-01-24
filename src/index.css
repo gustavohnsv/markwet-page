@@ -50,6 +50,7 @@
 }
 
 :root[data-theme="dark"] {
+  --bg-color: #121212;
   --surface-color: #1d1d1d;
   --text-primary: #ffffff;
   --text-secondary: #bdbdbd;
