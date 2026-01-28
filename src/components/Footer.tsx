@@ -5,7 +5,13 @@ import { toast } from "sonner";
 
 export default function Footer() {
   const { t } = useTranslation();
-  const baseUrl = import.meta.env.BASE_URL;
+  const baseUrl = import.meta.env.BASE_URL || "/";
+  const envApkUrl = import.meta.env.VITE_APK_URL;
+  const hasApk = typeof envApkUrl === "string" && envApkUrl.trim() !== "";
+  const APK_URL = hasApk ? envApkUrl : `${baseUrl.replace(/\/$/, "")}/404.html`;
+  const APK_FILENAME = hasApk
+    ? import.meta.env.VITE_APK_FILENAME || "markwet.apk"
+    : undefined;
 
   return (
     <>
@@ -69,8 +75,8 @@ export default function Footer() {
               Google Play
             </button>
             <a
-              href="https://storage.cloud.google.com/markwet-132f3.firebasestorage.app/public/markwet-v1.0.0.apk"
-              download="markwet-v1.0.0.apk"
+              href={APK_URL}
+              download={APK_FILENAME}
               style={{
                 backgroundColor: "transparent",
                 border: "2px solid rgba(255,255,255,0.3)",
