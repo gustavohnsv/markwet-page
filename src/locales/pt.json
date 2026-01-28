@@ -100,18 +100,18 @@
     }
   },
   "testimonials": {
-    "heading": "Avaliações",
+    "heading": "O que estão dizendo",
     "t1": {
-      "content": "Esta ferramenta redefiniu nossa colaboração global. Simplesmente essencial para o sucesso do projeto.",
-      "role": "Gerente de Produto Sênior"
+      "content": "Dividir a lista de compras da república nunca foi tão fácil! Agora todo mundo sabe o que comprar e ninguém esquece nada.",
+      "role": "Estudante de Engenharia"
     },
     "t2": {
-      "content": "A sincronização em tempo real permitiu que nossas equipes em três continentes trabalhassem como uma só.",
-      "role": "Diretor de Engenharia"
+      "content": "Uso com minha mãe pra organizar as compras do mês. Ela adiciona os itens de casa e eu já vejo na hora. Muito prático!",
+      "role": "Universitário"
     },
     "t3": {
-      "content": "A melhor experiência de usuário que já vi em um aplicativo deste tipo. Padrão mundial de qualidade.",
-      "role": "Designer UX/UI"
+      "content": "Finalmente um app simples que funciona! Chega de grupo no WhatsApp só pra lista de mercado.",
+      "role": "Jovem Profissional"
     }
   },
   "faq": {

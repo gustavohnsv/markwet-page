@@ -68,8 +68,9 @@ export default function Footer() {
               <SiGoogleplay size={24} />
               Google Play
             </button>
-            <button
-              onClick={() => toast.info(t("toasts.unavailable"))}
+            <a
+              href="https://storage.cloud.google.com/markwet-132f3.firebasestorage.app/public/markwet-v1.0.0.apk"
+              download="markwet-v1.0.0.apk"
               style={{
                 backgroundColor: "transparent",
                 border: "2px solid rgba(255,255,255,0.3)",
@@ -84,11 +85,12 @@ export default function Footer() {
                 cursor: "pointer",
                 minWidth: "200px",
                 justifyContent: "center",
+                textDecoration: "none",
               }}
             >
               <SiAndroid size={24} />
               {t("footer.downloadAPK")}
-            </button>
+            </a>
           </div>
           <p
             style={{

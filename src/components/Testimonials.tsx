@@ -6,22 +6,22 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: "John Doe",
+      name: "Lucas M.",
       role: t("testimonials.t1.role"),
       content: t("testimonials.t1.content"),
       rating: 5,
     },
     {
-      name: "John Smith",
+      name: "Ana Clara",
       role: t("testimonials.t2.role"),
       content: t("testimonials.t2.content"),
       rating: 5,
     },
     {
-      name: "Jane Doe",
+      name: "Pedro H.",
       role: t("testimonials.t3.role"),
       content: t("testimonials.t3.content"),
-      rating: 4,
+      rating: 5,
     },
   ];
 

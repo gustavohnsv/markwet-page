@@ -100,18 +100,18 @@
     }
   },
   "testimonials": {
-    "heading": "Reviews",
+    "heading": "What people are saying",
     "t1": {
-      "content": "This tool has redefined our global collaboration. Simply essential for project success.",
-      "role": "Senior Product Manager"
+      "content": "Splitting the grocery list with my roommates has never been easier! Now everyone knows what to buy and nothing gets forgotten.",
+      "role": "Engineering Student"
     },
     "t2": {
-      "content": "Real-time synchronization allowed our teams across three continents to work as one.",
-      "role": "Director of Engineering"
+      "content": "I use it with my mom to organize our monthly shopping. She adds items from home and I see them instantly. Super practical!",
+      "role": "College Student"
     },
     "t3": {
-      "content": "The best user experience I've seen in an app of this kind. World-class quality standard.",
-      "role": "UX/UI Designer"
+      "content": "Finally a simple app that just works! No more WhatsApp groups just for grocery lists.",
+      "role": "Young Professional"
     }
   },
   "faq": {
